@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="con" path="org.elipse.mtj.JavaMEContainer/Series 40 6th Edition SDK , Feature Pack 1/Series_40_6th_Edition_SDK_Feature_Pack_1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
