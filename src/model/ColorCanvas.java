@@ -38,6 +38,8 @@ class ColorCanvas extends Canvas {
 		int r2 = r1>>1;
 		int r3 = r2-6;
 		
+		String s1, s2, s3;
+		
 		// Clear background
 		if(0 == m_colorMixType) {
 			// Additive (RGB)
