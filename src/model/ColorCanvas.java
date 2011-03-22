@@ -127,6 +127,18 @@ class ColorCanvas extends Canvas {
 		g.fillRect(cx-1,0,3,17);
 
 		g.fillRect(cx-8,maxy-9,17,3);
+		
+		// Top right percentage
+		s1 = m_colorComponents[0] * 100 / 255 + "%";
+		g.drawString(s1, getWidth()-5, 60, Graphics.TOP|Graphics.RIGHT);
+		
+		// Top left percentage
+		s2 = m_colorComponents[1] * 100 / 255 + "%";
+		g.drawString(s2, 5, 60, Graphics.TOP|Graphics.LEFT);
+		
+		// Bottom percentage
+		s3 = m_colorComponents[2] * 100 / 255 + "%";
+		g.drawString(s3, getWidth()/2, getHeight()-40 ,Graphics.BOTTOM|Graphics.HCENTER);
 	}
 
 	private void selectPreviousColor(){
